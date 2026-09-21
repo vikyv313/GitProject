@@ -88,6 +88,11 @@ public class BaseClass {
 	public void closeBrowser() {
 		driver.quit();
 	}
+	
+	public void horizontalSwipe() {
+		System.out.println("Horizontal Swipe");
+
+	}
 
 	public void swipeleft() {
 		System.out.println("Swipe Left");
