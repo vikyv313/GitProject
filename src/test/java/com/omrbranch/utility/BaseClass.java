@@ -89,4 +89,13 @@ public class BaseClass {
 		driver.quit();
 	}
 
+	public void swipeleft() {
+		System.out.println("Swipe Left");
+	}
+	
+	public void swipeRight() {
+		System.out.println("Swipe Right");
+
+	}
+	 
 }
